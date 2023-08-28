@@ -16,3 +16,16 @@ Implementation of paper - [Improving the performance of object detection by pres
 - pandas
 - iterative-stratification
 - pillow
+
+## How to use
+You can insert the path to the folder with the image and label files in the 7th and 8th lines.
+'''
+img_dir_path = './COCO_val2017/images/' # image path
+txt_dir_path = './COCO_val2017/labels/' # label path
+'''
+
+Then, put the type of dataset into the task variable in the read_txt on the 41st line.
+- 'det' : object detection YOLO format
+- 'seg' : instance segmentation YOLO format
+  
+At the end of the code, you can append additional lines to produce the desired output, such as saving an image and its corresponding label file, or generating a text file with a list of images and labels.
