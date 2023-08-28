@@ -25,7 +25,9 @@ txt_dir_path = './COCO_val2017/labels/' # label path
 ```
 
 Then, put the type of dataset into the task variable in the read_txt on the 41st line.
+```
 - 'det' : object detection YOLO format
 - 'seg' : instance segmentation YOLO format
-  
+```
+
 At the end of the code, you can append additional lines to produce the desired output, such as saving an image and its corresponding label file, or generating a text file with a list of images and labels.
