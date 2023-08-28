@@ -11,3 +11,8 @@ Implementation of paper - [Improving the performance of object detection by pres
 | Website screenshot   | 1.61        | 4864±3880              | **4092.5±3428.5**      | 42897±34009                   | **35538.5±29582.5**           |
 | Aquarium             | 1.42        | 5172.5±4075.5          | **3943±2202**          | 44031.5±33452.5               | **38541±22795**               |
 | BCCD                 | 0.53        | 1973.5±1417.5          | **1224±862**           | 17683.5±12738.5               | **11459±8186**                |
+
+## Requirements
+- pandas
+- iterative-stratification
+- pillow
