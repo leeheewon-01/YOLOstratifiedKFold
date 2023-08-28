@@ -19,10 +19,10 @@ Implementation of paper - [Improving the performance of object detection by pres
 
 ## How to use
 You can insert the path to the folder with the image and label files in the 7th and 8th lines.
-'''
+```
 img_dir_path = './COCO_val2017/images/' # image path
 txt_dir_path = './COCO_val2017/labels/' # label path
-'''
+```
 
 Then, put the type of dataset into the task variable in the read_txt on the 41st line.
 - 'det' : object detection YOLO format
