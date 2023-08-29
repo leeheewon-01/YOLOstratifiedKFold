@@ -22,7 +22,7 @@ Then, put the type of dataset into the task variable in the read_txt on the 41st
 At the end of the code, you can append additional lines to produce the desired output, such as saving an image and its corresponding label file, or generating a text file with a list of images and labels.
 
 ## Experiments
-### class distribution error(using MAE(unit=1e-7))
+### class distribution error using MAE(unit=1e-7)
 | **Dataset**          | **Entropy** | **Train KFold**        | **Train Ours**         | **Validation KFold**          | **Validation Ours**           |
 |----------------------|-------------|------------------------|------------------------|-------------------------------|-------------------------------|
 | COCO val2017         | 3.39        | **165±127**            | 168±128                | **1466.5±1126.5**             | 1506.5±1144.5                 |
