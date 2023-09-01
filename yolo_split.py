@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 from tqdm import tqdm
-from PIL import Image
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 img_dir_path = './COCO_val2017/images/' # image path
