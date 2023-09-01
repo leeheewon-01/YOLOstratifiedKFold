@@ -4,7 +4,6 @@ Implementation of paper - [Improving the performance of object detection by pres
 ## Requirements
 - pandas
 - iterative-stratification
-- pillow
 
 ## How to use
 You can insert the path to the folder with the image and label files in the 7th and 8th lines.
