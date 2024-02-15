@@ -1,4 +1,4 @@
-## YOLOstratifiedKFold
+## YOLO stratified KFold
 Implementation of paper - [Improving the performance of object detection by preserving label distribution](no)
 
 ## Requirements
